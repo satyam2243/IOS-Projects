@@ -13,11 +13,11 @@ class accountViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if self.revealViewController() != nil {
-            menuBttn.target = self.revealViewController()
-            menuBttn.action = #selector(SWRevealViewController.revealToggle(_:))
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
+//        if self.revealViewController() != nil {
+//            menuBttn.target = self.revealViewController()
+//            menuBttn.action = #selector(SWRevealViewController.revealToggle(_:))
+//            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+//        }
         
         view.backgroundColor = .systemPink
         title = "Account"
